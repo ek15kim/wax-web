@@ -32,7 +32,7 @@ export default function HomeHome() {
               // initial={{ opacity: 0, x: -100 }}
               // whileInView={{ opacity: 1, y: 0 }}
               // transition={{ delay: 1, duration: 0.8, ease: "easeIn" }}
-              className="hidden md:block w-78 rounded-full bg-yellow-200 overflow-hidden m-5"
+              className="hidden md:block w-78 rounded-full overflow-hidden m-5"
             >
               <Image
                 src="/img2.jpg"

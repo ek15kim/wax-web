@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <div className="overflow-hidden w-full md:h-160 relative">
       <Image
-        className="flex flex-grow-0 basis-full w-full bg-yellow-200"
+        className="flex flex-grow-0 basis-full w-full bg-slate-700"
         src="/hero-image.jpg"
         alt="hero"
         width="1600"
