@@ -11,7 +11,7 @@ export const TextWithImage = ({ children }: { children: React.ReactNode }) => {
       </Fade>
       {/* CONTENT */}
       <div>
-        <h2 className="text-2xl md:text-3xl font-bold md:w-100 leading-loose px-auto text-center md:text-left py-5 pb-10 text-slate-50">
+        <h2 className="text-2xl md:text-3xl font-bold md:w-100 leading-loose px-auto text-center md:text-left py-5 pb-10 text-secondary">
           {HOMEPAGE_TEXTS[1].heading}
         </h2>
         <ul className="list-disc pl-10 space-y-4">

@@ -10,7 +10,7 @@ export const ListText = () => {
       {/* <div className="w-78 rounded-full overflow-hidden m-5 animate-fade-in"></div> */}
 
       <div className="grid gap-2">
-        <h2 className="text-2xl md:text-4xl font-bold md:w-100 py-5 pb-10 text-secondary">
+        <h2 className="text-2xl md:text-4xl font-bold md:w-100 py-5 pb-10">
           {HOMEPAGE_TEXTS[2].heading}
         </h2>
         <ul className="md:pl-10  space-y-4 ">

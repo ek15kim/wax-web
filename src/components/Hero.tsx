@@ -16,7 +16,7 @@ export const Hero = () => {
       />
 
       <div className="md:absolute top-20 py-5 md:left-5 px-2 text-white">
-        <div className="sm:w-40">
+        <div className="sm:w-40 py-5">
           <Fade
             direction="down"
             delay={100}
@@ -24,7 +24,7 @@ export const Hero = () => {
             damping={0.2}
             triggerOnce={true}
           >
-            <h2 className="text-4xl md:text-5xl font-mono">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-mono">
               Flexible learning.
             </h2>
           </Fade>
@@ -35,7 +35,7 @@ export const Hero = () => {
             damping={0.5}
             triggerOnce={true}
           >
-            <h2 className="text-4xl md:text-5xl text-secondary font-mono pt-2">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl text-secondary font-mono pt-2">
               Solid results.
             </h2>
           </Fade>
@@ -44,7 +44,7 @@ export const Hero = () => {
           <div className="bg-primary w-full md:w-auto text-center hover:bg-purple-400 py-2 px-10 text-white font-mono ">
             <a href="/about">About Wax</a>
           </div>
-          <p className="text-semibold text-2xl pt-5">
+          <p className="text-semibold text-2xl text-balance">
             We design engaging, tailered learning experiences that improve
             performance, sharpen skills, and deliver real impact where it
             matters.
