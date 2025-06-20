@@ -36,7 +36,6 @@ const EXAMPLES = [
   },
 ];
 
-// @ts-expect-error //
 const Cards = ({ cardData }) => {
   const {
     beforeImage,
