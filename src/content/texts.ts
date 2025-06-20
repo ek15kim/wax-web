@@ -14,10 +14,10 @@ export const SERVICE_CARDS_TEXT = [
 export const ABOUTPAGE_TEXTS= {
     intro:{heading:"About Us", description1:"Wax learning solutions is built on over 15 years of experience in learning and development. I've worked across sectors including engineering, manufactoring, tech and defence, desining training that's practical, engaging, and focused on solving real challeges in the workplace.",description2:"At Wax, that same passion for learning drives everythign we do;",description3:"Flexible, effective solutions that help people grow and organisations perform."},
     accordion:[
-    {heading:"Onboarding",description:"Create onboarding programs that are brand-immersive, efficient, and combat the transactional relationship most working people have with their organisations today.With strategic and emotionally-engaging onboarding programs, you can create environments that make hybrid and remote employees feel connected to the business, and each other."},
+    {heading:"On boarding",description:"Create onboarding programs that are brand-immersive, efficient, and combat the transactional relationship most working people have with their organisations today.With strategic and emotionally-engaging onboarding programs, you can create environments that make hybrid and remote employees feel connected to the business, and each other."},
     {heading:"Compliance",description:"With 20+ years’ experience in working with Subject Matter Experts, Sponge knows how to work with yours, extracting your compliance learning objectives and spinning them into engaging, story-driven content that sticks."},
     {heading:"Product Training",description:"Bespoke digital learning allows you to manage the internal launch of new products or brands across large, usually multi-lingual, multi-territory, organisations in a consistent, trackable way."},
-    {heading:"necessitatibus",description:"ipsum dolor sit amet, consectetur adipisicing elit. Nobis quod a id similique quo! Beatae ullam incidunt ipsam! Ex et illum qui corrupti at veritatis necessitatibu"}
+    {heading:"Lorem Ipsum",description:"ipsum dolor sit amet, consectetur adipisicing elit. Nobis quod a id similique quo! Beatae ullam incidunt ipsam! Ex et illum qui corrupti at veritatis necessitatibu"}
 ]
 }
 

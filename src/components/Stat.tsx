@@ -25,16 +25,12 @@ export const StatWithText = () => {
         <div className="grid md:grid-cols-4 md:gap-y-16 gap-x-8 text-slate-100">
           <figure className="block text-center mx-auto max-lg:mt-3">
             {/* Stat - Max 5 Chars */}
-            <div className="text-7xl md:text-9xl font-bold text-primary flex justify-center items-end">
+            <div className="text-8xl md:text-9xl font-bold text-primary flex justify-center items-end">
               <motion.pre>{rounded}</motion.pre>
               <span className="text-4xl p-2">%</span>
             </div>
-            <figcaption className="mt-2 block max-w-[35ch] text-center text-balance mx-auto pt-2 text-lg">
-              {/* of organisations provide eLearning to their employees, compared to
-              76% in 2015 */}
-            </figcaption>
           </figure>
-          <div className="p-5 md:col-span-3 text-xl md:text-2xl sm:text-2xl leading-normal  text-balance mx-auto [&_strong]:text-ice-600">
+          <div className="p-5 md:col-span-3 md:text-3xl text-2xl leading-normal md:text-balance mx-auto [&_strong]:text-ice-600">
             of organisations provide eLearning to their employees, compared to
             76% in 2015
             <h3 className="font-semibold mt-4 text-secondary">{/* text */}</h3>

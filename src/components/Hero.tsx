@@ -44,7 +44,7 @@ export const Hero = () => {
           <div className="bg-primary w-full md:w-auto text-center hover:bg-purple-400 py-2 px-10 text-white font-mono ">
             <a href="/about">About Wax</a>
           </div>
-          <p className="text-semibold">
+          <p className="text-semibold text-2xl pt-5">
             We design engaging, tailered learning experiences that improve
             performance, sharpen skills, and deliver real impact where it
             matters.

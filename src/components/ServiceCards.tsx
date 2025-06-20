@@ -37,7 +37,7 @@ const ServiceCard = ({ textData }: TextDataProps) => {
 
 export const ServiceCards = () => {
   return (
-    <div className="mt-6 xl:mt-12 py-2 2xl:px-20 md:px-5">
+    <div className="mt-6 xl:mt-12 py-2 2xl:px-20 px-2 md:px-5">
       <h2 className="text-white text-3xl md:text-4xl text-center py-5 md:py-10">
         Powerful support to maximise your investment
       </h2>

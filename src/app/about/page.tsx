@@ -14,7 +14,7 @@ export default function About() {
     <div>
       <main className="bg-gray-50 w-full px-2 sm:px-0 grid gap-y-8 lg:gap-y-16 lg:py-10">
         <FlexWrapper>
-          <div className="md:w-1/2 py-5 flex xl:gap-10 flex-wrap md:flex-col gap-5">
+          <div className="md:w-1/2 py-10 flex xl:gap-10 flex-wrap md:flex-col gap-5">
             <motion.h1
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -51,6 +51,7 @@ export default function About() {
             </div>
           </div>
         </FlexWrapper>
+
         <FlexWrapper>
           <Accordion>
             <Image
@@ -82,14 +83,9 @@ export default function About() {
                 <PlayCircleIcon className="text-red-700 w-24 md:w-28 hover:text-red-500" />
               </button>
             </div>
-
-            {/* <div className="xl:mt-4 lg:col-3 xl:p-6 md:w-160 my-5">
-              <img src="/bg-img-4.png" alt="learning-content-2" />
-              <PlayCircleIcon className="text-red-700 w-20" />
-            </div> */}
           </section>
         </FlexWrapper>
-        <FlexWrapper>
+        {/* <FlexWrapper>
           <p>Technologies We Use</p>
           <div className="px-auto bg-yellow-100 ">
             <ul className="flex gap-25 xl:gap-50">
@@ -106,7 +102,7 @@ export default function About() {
               ))}
             </ul>
           </div>
-        </FlexWrapper>
+        </FlexWrapper> */}
       </main>
     </div>
   );
