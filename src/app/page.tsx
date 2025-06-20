@@ -2,7 +2,6 @@
 
 import { ComponentWrapper } from "../components/wrapper/ComponentWrapper";
 import { Enquiry } from "../components/Enquiry";
-import { HeadingText } from "../components/HeadingText";
 import { Hero } from "../components/Hero";
 import { ServiceCards } from "../components/ServiceCards";
 import { TextWithImage } from "../components/TextWithImage";
