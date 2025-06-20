@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+@theme {
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+  --color-primary: #6e4ce5;
+  --color-primary2: #e2dfeb;  
+  --color-secondary: #FD6E60;
+  --color-secondary2:#edddda;
+
+  --animate-fade-in: fadeIn 1s ease-in forwards;
+  --animate-fade-left: fadeLeft 1s ease-in forwards;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes fadeLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --color-tahiti: #3ab7bf;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .animate-bounce-1 {
+    animation: bounce 0.8s ease-in-out 2;
+    animation-delay: 1s;
+  }
+  .animate-bounce-3 {
+    animation: bounce 0.8s ease-in 2;
+    animation-delay: 1s;
+  }
+  .animate-fade-in {
+    animation: var(--animate-fade-in);
+    animation-delay: 3s
+  }
+  .animate-fade-left {
+    animation: var(--animate-fade-left);
+    animation-delay: 1s
+  }
+}
+
